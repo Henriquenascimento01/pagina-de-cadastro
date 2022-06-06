@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 80%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+    background-color: #8e5d52;
+    font-family: 'Righteous', cursive;
+    color: #fff2e7;
+    margin-left: 25%;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.titulo-formulario {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff2e7;
+    
+}
+
+.sub-titulo-formulario {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ecd6c4
+    
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display:flow-root;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin: 1em;
+}
+
+.campo input [type="text"], .campo input [type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
+    
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color:#ecd6c4
+}
+
+.botao {
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    border: 0;
+    margin-bottom: 1em;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+
+
+}
+
+.nome-lado {
+
+    display: flex;
+    flex-direction: column;
+
+}
